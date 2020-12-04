@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>canvas demo</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+<div class="container mt-2">
+    <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+            <div class="row">
+                <label for="" class="col-md-3">Course 1</label>
+                <input type="text" class="col-md-6 form-control mr-2" id="co1" placeholder="Course Name"></input>
+                <input type="number" class="col-md-2 form-control" id="inp1" placeholder="Grade"></input>
+            </div>
+            <div class="row mt-2">
+                <label for="" class="col-md-3">Course 2</label>
+                <input type="text" class="col-md-6 form-control mr-2" id="co2" placeholder="Course Name"></input>
+                <input type="number" class="col-md-2 form-control" id="inp2" placeholder="Grade"></input>
+            </div>
+            <div class="row mt-2">
+                <label for="" class="col-md-3">Course 3</label>
+                <input type="text" class="col-md-6 form-control mr-2" id="co3" placeholder="Course Name"></input>
+                <input type="number" class="col-md-2 form-control" id="inp3" placeholder="Grade"></input>
+            </div>
+            <div class="row mt-2">
+                <label for="" class="col-md-3">Course 4</label>
+                <input type="text" class="col-md-6 form-control mr-2" id="co4" placeholder="Course Name"></input>
+                <input type="number" class="col-md-2 form-control" id="inp4" placeholder="Grade"></input>
+            </div>
+            <div class="row mt-3">
+                <div class="form-group form-check mr-5 ml-5 pl-5">
+                    <input type="checkbox" class="form-check-input" id="bar">
+                    <label class="form-check-label" for="bar">Bar</label>
+                </div>
+                <div class="form-group form-check mr-5">
+                    <input type="checkbox" class="form-check-input" id="line">
+                    <label class="form-check-label " for="line">Line</label>
+                </div>
+                <div class="form-group form-check mr-5">
+                    <input type="checkbox" class="form-check-input" id="pie">
+                    <label class="form-check-label " for="pie">Pie</label>
+                </div>
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="doug">
+                    <label class="form-check-label" for="doug">Doug</label>
+                </div>
+            </div>
+            <div class="row">
+                <button type="button" class="btn btn-primary btn-lg btn-block" id="Dbtn">Draw</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid">
+    <canvas id="canv1"  width="300" height="300" ></canvas>
+    <canvas id="canv2"  width="300" height="300"></canvas>
+    <canvas id="canv3"  width="300" height="300"></canvas>
+    <canvas id="canv4"  width="300" height="300"></canvas>
+    <canvas id="last" width="300" height="300" style="width: 30%; margin-left: 30%;"></canvas>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
